@@ -1,0 +1,12 @@
+For the test program, we would like you to try the following. This second phase of this test may be confusing,
+so please do not hesitate to ask any questions, and if need be I can modify this test to make it a more straight forward task.
+
+Using the libmseed package at http://www.iris.edu/dms/nodes/dmc/software/downloads/,
+please write code to read in the attached data file (called an mseed, or miniseed file) containing compressed integer data. 
+(This is an actual seismic event.) The resulting input should be an array of integers, with an associated start time and sample rate. 
+(should be 40 samples per second, if I remember correctly)
+
+Then using the FFT3 library at http://www.fftw.org/, please return the FFT of this signal in frequency vs amplitude format. 
+Again email/call me if you have any questions (my cell is 518-527-6219).
+
+Your code should be able to open and read the file, calculate the FFT, and then print the output to a file.
